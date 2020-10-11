@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="colorPrimaryDark">@color/dark_blue</color>
+    <color name="colorAccent">@color/colorPrimaryDark</color>
+    <color name="editTextLine">#99307ab0</color>
+    <color name="textDarkGray">#8c8c8c</color>
+    <color name="textDarkNewGray">#cacaca</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="textWhiteOpacityLow">#33ffffff</color>
+    <color name="textBlueGuest">#06a0c2</color>
+    <color name="dark_blue">#105994</color>
+    <color name="dark_grey">#202e3b</color>
+
+    <color name="translucent">#10FFFFFF</color>
+    <color name="textlightRed">#ff8080</color>
+    <color name="textRedBlocked">#ff4e59</color>
+
+    <color name="rippleColor">@color/editTextLine</color>
+
+
+    <color name="colorLightGreenOpacity66">#bae6be</color>
+    <color name="colorLightGreenTextColor">#4bb39a</color>
+
+    <color name="colorLightBlueTextColor">#2c676b</color>
+
+    <color name="deep_orange_700">@color/textBlueGuest</color>
+    <color name="deep_orange_300">@color/textDarkNewGray</color>
+    <color name="deep_orange_50">@color/whiteColor</color>
+
+    <color name="cpb_grey">@color/colorLightGreenTextColor</color>
+    <color name="cpb_blue">@color/colorLightGreenOpacity66</color>
+    <color name="cpb_blue_dark">@color/colorLightGreenTextColor</color>
+    <color name="cpb_red">@color/textlightRed</color>
+    <color name="cpb_red_dark">@color/textRedBlocked</color>
+    <color name="cpb_green">@color/cpb_blue_dark</color>
+    <color name="cpb_green_dark">@color/cpb_blue</color>
+    <color name="cpb_white">@android:color/white</color>
+</resources>

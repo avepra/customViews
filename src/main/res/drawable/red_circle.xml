@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The top layer is red ring.-->
+    <item
+        android:id="@+id/notification_item"
+        android:gravity="right|top">
+        <shape android:shape="oval">
+            <solid android:color="@color/textRedBlocked" />
+            <size
+                android:width="7dp"
+                android:height="7dp" />
+        </shape>
+    </item>
+
+
+</layer-list>

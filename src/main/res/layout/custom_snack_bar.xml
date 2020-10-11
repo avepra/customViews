@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlCartSnackBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin20dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="@dimen/margin20dp"
+    android:layout_marginBottom="@dimen/margin5dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    app:cardBackgroundColor="@color/whiteColor"
+    app:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="@dimen/margin7dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/colorAccent"
+        android:padding="@dimen/margin10dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/im_action_left"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_menu_cart_unselected" />
+
+        <View
+            android:id="@+id/emptyView"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin10dp"
+            android:layout_toRightOf="@+id/im_action_left"
+            android:background="@color/colorLightBlueTextColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin10dp"
+            android:layout_toLeftOf="@+id/tv_action"
+            android:layout_toRightOf="@+id/emptyView"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <com.avipras.customviews.CustomTextViewRegular
+                android:id="@+id/tv_item_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:padding="@dimen/margin3dp"
+                android:text="@string/item"
+                android:textColor="@color/whiteColor"
+                android:textSize="@dimen/txt_small" />
+
+            <com.avipras.customviews.CustomTextViewSemiBold
+                android:id="@+id/tv_item_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="@string/item"
+                android:textColor="@color/whiteColor"
+                android:textSize="@dimen/txt_medium" />
+        </LinearLayout>
+
+        <com.avipras.customviews.CustomTextViewLight
+            android:id="@+id/tv_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="10dp"
+            android:text="@string/proceed_to_cart"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/txt_small"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

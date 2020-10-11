@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="design_navigation_icon_size" tools:ignore="PrivateResource">@dimen/size30dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="descSizeLarge">18sp</dimen>
+    <dimen name="margin7dp">7dp</dimen>
+    <dimen name="margin5dp">5dp</dimen>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+    <dimen name="margin3dp">3dp</dimen>
+
+    <dimen name="margin10dp">10dp</dimen>
+
+    <dimen name="txt_small">12sp</dimen>
+    <dimen name="txt_medium">14sp</dimen>
+
+    <dimen name="margin20dp">20dp</dimen>
+
+    <dimen name="otp_view_item_size">48dp</dimen>
+    <dimen name="otp_view_item_spacing">5dp</dimen>
+    <dimen name="otp_view_item_line_width">2dp</dimen>
+    <dimen name="otp_view_cursor_width">2dp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">@dimen/txt_medium</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">
+        @dimen/txt_medium
+    </dimen>
+
+    <dimen name="stroke_width">2dp</dimen>
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="cpb_stroke_width">4dp</dimen>
+</resources>
